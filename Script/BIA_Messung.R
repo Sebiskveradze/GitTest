@@ -205,7 +205,7 @@ ggsave(here("Plots/Plot_BMI.png"))
 df_runs <- read.csv(
   here("Data/activities.csv")
   ) %>% 
-  clean_names() #%>% 
+  clean_names() %>% 
   select(
     activity_id,
     activity_date,
@@ -288,7 +288,7 @@ df_runs %>%
 
 
 # Save 
-ggsave(here("Plots/Plot_Runs_test.png"))
+ggsave(here("Plots/Plot_Runs.png"))
 
 
 
