@@ -286,8 +286,9 @@ df_runs %>%
   scale_y_continuous(labels = scales::unit_format(unit = "km")) 
 
 
-# Save
-ggsave(here("Plots/Plot_Runs.png"))
+
+# Save 
+ggsave(here("Plots/Plot_Runs_test.png"))
 
 
 
